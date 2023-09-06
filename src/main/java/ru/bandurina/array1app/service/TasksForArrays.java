@@ -15,7 +15,7 @@ public class TasksForArrays {
             if (array[i] % 2 == 0)
                 ctr++;
         }
-        System.out.println(ctr);
+        System.out.println("Even Numbers: " + ctr);
     }
 
     public static void oddNumbers() {
@@ -24,7 +24,7 @@ public class TasksForArrays {
             if (array[i] % 2 != 0)
                 ctr++;
         }
-        System.out.println(ctr);
+        System.out.println("Odd Numbers: " + ctr);
     }
 
     public static void primeNumbers() {
@@ -35,17 +35,17 @@ public class TasksForArrays {
             else if (array[i] == 2 || array[i] == 3 || array[i] == 5 || array[i] == 7)
                 ctr++;
         }
-        System.out.println(ctr);
+        System.out.println("Prime Numbers: " + ctr);
     }
 
     public static void summNumbers() {
         int summ = array[0] + array[1] + array[2] + array[3] + array[4] + array[5] + array[6] + array[7] + array[8] + array[9];
-        System.out.println(summ);
+        System.out.println("Summ of numbers: "+ summ);
     }
 
     public static void diffTheSummEvenAndOddIndex() {
         int diff = (array[0] + array[2] + array[4] + array[6] + array[8]) - (array[1] + array[3] + array[5] + array[7] + array[9]);
-        System.out.println(diff);
+        System.out.println("Difference the sums of even and odd index: " + diff);
     }
 
     public static void numberOfZeros() {
@@ -54,6 +54,6 @@ public class TasksForArrays {
             if (array[i] == 0)
                 ctr++;
         }
-        System.out.println(ctr);
+        System.out.println("Number of zeros: " + ctr);
     }
 }
